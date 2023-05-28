@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CadastraAI</title>
+</head>
+<body>
+    <header>
+        <div  class="img1"><img src="img/img_login.png" alt="Login"></div></header>
+    <main>
+        <article><img src="img/cadastraAI.png" alt="EscolheAI"></article>
+        <div class="container_login">
+        <div class="preencher">
+            
+<input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+  
+        <div class="preencher">
+            
+<input type="password" id="senha" name="senha" placeholder="Senha" required>
+        </div>
+        <div class="preencher">
+        <input type="password" id="repita_a_senha" name="senha" placeholder="Repita a senha" required>
+        </div>
+        <div class="botao_entraai">
+            <button type="submit" id="entraai">CadastraAI</button>
+            </div>
+        </div>
+       
+    </main>
+    <script>
+        // Adicione um evento de clique ao botão
+        document.getElementById('entraai').addEventListener('click', function() {
+          // Redirecionar para a outra página
+          window.location.href = 'pagina1.html';
+        });
+      </script>
+</body>
+</html>

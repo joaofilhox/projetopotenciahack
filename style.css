@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    text-align: -webkit-center;
+    background-image: url(img/img_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.img1 {
+    width: 350px;
+    height: 395px;
+}
+
+.img2 {
+   
+    margin: -35px;
+}
+.container_login {
+    margin: 20px;
+}
+
+.preencher {
+    width: 313px;
+    height: 48.76px;
+    
+}
+
+#email {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+
+#senha {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 26px;
+    text-align: center;
+    
+}
+#repita_a_senha {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 54px;
+    
+    
+}
+
+
+.botao_entraai {
+    width: 313px;
+    height: 48.78px;
+    margin-top: 83px;
+}
+
+#entraai {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#56FE0C;
+    font-size: larger;
+    cursor: pointer;
+}
+#entraai:hover {
+    background-color: #a049;
+  }
+
+.recuperar_senha {
+    margin: 63px;
+}
