@@ -126,3 +126,23 @@ input {
 #botao:hover {
     background-color: #a049;
   }
+
+  .video {
+    width: 904.89px;
+    height: 509px;
+    margin-top: 36px;
+  }
+  #botao1 {
+    width: 200px;
+    height: 50px;
+    background-color: #56FE0C;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 704px;
+}
+#botao1:hover {
+    background-color: #a049;
+  }
