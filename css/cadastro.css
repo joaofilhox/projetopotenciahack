@@ -36,7 +36,7 @@ body {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-   
+   color: aliceblue;
 }
 a {
     color: #000;
@@ -58,80 +58,71 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.img1 {
-    width: 350px;
-    height: 395px;
-}
 
-.img2 {
-   
-    margin: -35px;
+.header {
+    margin-top: 92px;
+    width: 434px;
+    height: 58px;
 }
-.container_login {
-    margin: 20px;
-}
-
-.preencher {
-    width: 313px;
-    height: 48.76px;
-    
-}
-
-#email {
+h1{
     width: 100%;
     height: 100%;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    
-    
+    font-size: 48px;
 }
 
-#senha {
+.container1 {
+    width: 439px;
+    height: 29px;
+}
+
+.container1 h4 {
     width: 100%;
     height: 100%;
-    border: none;
-    border-radius: 5px;
-    margin-top: 26px;
-    text-align: center;
-    
+    font-size: 24px;
+    margin-top: 15px;
+
 }
-#repita_a_senha {
+strong {
+    color: #56FE0C;
+}
+label {
+    width: 60%;
+    height: 66px;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 70%;
+    height: 50%;
     width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 54px;
-    
-    
+    height: 34px;    
+    padding-left: 5px;
+    box-sizing: border-box;
+
+}
+.container3 {
+    display: flex;
 }
 
-
-.botao_entraai {
-    width: 313px;
-    height: 48.78px;
-    margin-top: 83px;
+.data {
+    margin-right: 30px;
 }
-
-#entraai {
-    width: 100%;
-    height: 100%;
+#botao {
+    width: 200px;
+    height: 50px;
+    background-color: #56FE0C;
     border: none;
     border-radius: 5px;
-    text-align: center;
-    background-color:#56FE0C;
     font-size: larger;
     cursor: pointer;
+    margin-top: 50px;
 }
-#entraai:hover {
+#botao:hover {
     background-color: #a049;
   }
-
-.recuperar_senha {
-    margin: 63px;
-}
-
-footer {
-    font-size: larger;
-}

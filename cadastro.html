@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="header"><h1>Seja Bem Vindo(a)</h1></header>
+    <main>
+        <section class="container1"><h4>Antestes de continuarmos <strong>preencheAI</strong>:)</h4></section>
+        <section class="container2">
+            <label for="Nome:">Nome: <input type="text"></label>
+            <div class="container3">
+            <label class="data" for="Data">Data de nascimento: <input type="date"></label>
+            <label for="cpf">CPF: <input type="number" placeholder="___.___.___-__"></label>
+        </div>
+            <label for="linkedin">Linkedin: <input type="text"></label>
+            <label for="renda">Renda familiar: <input type="number"></label>
+        </section>
+        <section>
+            <button id="botao">Continuar</button>
+        </section>
+    </main>
+    <script>
+        document.getElementById('botao').addEventListener('click', function() {
+          window.location.href = 'pagina1.html';
+        });
+      </script>
+</body>
+</html>
