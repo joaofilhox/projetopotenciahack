@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     text-align: -webkit-center;
-    background-image: url(img/img_background.png);
+    background-image: url(/img/img_background.png);
     background-repeat: no-repeat;
     background-size: cover;
    
